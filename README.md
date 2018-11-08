@@ -8,5 +8,5 @@ This project just runs that script inside a Docker container. This means you sho
 ```
 $ export DNSMADEEASY_API_KEY="key"
 $ export DNSMADEEASY_API_SECRET_KEY="secret"
-$ docker run --env DNSMADEEASY_API_KEY --env DNSMADEEASY_API_SECRET_KEY samcrang/dnsmeapi "http://api{.sandbox}.dnsmadeeasy.com/V2.0/dns/managed"
+$ docker run --env DNSMADEEASY_API_KEY --env DNSMADEEASY_API_SECRET_KEY eyexs/dnsmeapi "http://api{.sandbox}.dnsmadeeasy.com/V2.0/dns/managed"
 ```
